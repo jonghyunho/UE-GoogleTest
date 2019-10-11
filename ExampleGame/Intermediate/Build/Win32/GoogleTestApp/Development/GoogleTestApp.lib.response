@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x86
+/SUBSYSTEM:CONSOLE
+/DEF
+/NAME:"GoogleTestApp.exe"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\git\ExampleGame\Intermediate\Build\Win32\GoogleTestApp\Development\GoogleTestApp\PCH.GoogleTestApp.h.obj"
+"D:\git\ExampleGame\Intermediate\Build\Win32\GoogleTestApp\Development\GoogleTestApp\GoogleTestApp.cpp.obj"
+"D:\git\ExampleGame\Intermediate\Build\Win32\GoogleTestApp\Development\Default.rc2.res"
+/OUT:"D:\git\ExampleGame\Intermediate\Build\Win32\GoogleTestApp\Development\GoogleTestApp.lib"

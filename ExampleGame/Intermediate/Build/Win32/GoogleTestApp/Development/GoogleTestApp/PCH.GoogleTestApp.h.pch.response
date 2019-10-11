@@ -1,0 +1,54 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gw
+/Gy
+/Zm850
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ox
+/Ot
+/GF
+/Ob2
+/arch:SSE2
+/errorReport:prompt
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp4
+/wd4463
+/wd4838
+/we4668
+/I .
+/I D:\git\ExampleGame\Source\Tests\GoogleTestApp\Private
+/I D:\git\ExampleGame\Source\ThirdParty
+/I D:\git\ExampleGame\Source\Tests
+/I D:\git\ExampleGame\Source
+/I D:\git\ExampleGame\Source\Tests\GoogleTestApp
+/I D:\git\ExampleGame\Source\ThirdParty\GoogleTest\googletest-release-1.8.1\googlemock
+/I D:\git\ExampleGame\Source\ThirdParty\GoogleTest\googletest-release-1.8.1\googlemock\include
+/I D:\git\ExampleGame\Source\ThirdParty\GoogleTest\googletest-release-1.8.1\googlemock\src
+/I D:\git\ExampleGame\Source\ThirdParty\GoogleTest\googletest-release-1.8.1\googletest
+/I D:\git\ExampleGame\Source\ThirdParty\GoogleTest\googletest-release-1.8.1\googletest\include
+/I D:\git\ExampleGame\Source\ThirdParty\GoogleTest\googletest-release-1.8.1\googletest\src
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/D_HAS_EXCEPTIONS=0
+/I D:\git\ExampleGame\Intermediate\Build\Win32\GoogleTestApp\Development\GoogleTestApp
+/Yc"D:\git\ExampleGame\Intermediate\Build\Win32\GoogleTestApp\Development\GoogleTestApp\PCH.GoogleTestApp.h"
+/Fp"D:\git\ExampleGame\Intermediate\Build\Win32\GoogleTestApp\Development\GoogleTestApp\PCH.GoogleTestApp.h.pch"
+"D:\git\ExampleGame\Intermediate\Build\Win32\GoogleTestApp\Development\GoogleTestApp\PCH.GoogleTestApp.cpp"
+/Fo"D:\git\ExampleGame\Intermediate\Build\Win32\GoogleTestApp\Development\GoogleTestApp\PCH.GoogleTestApp.h.obj"
+/TP
+/GR-
+/W4

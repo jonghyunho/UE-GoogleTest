@@ -1,0 +1,6 @@
+D:\git\UE4-GoogleTest\ExampleGame\Source\ExampleGame\ExampleGame.Build.cs
+D:\git\UE4-GoogleTest\ExampleGame\Source\Tests\GoogleTestApp\GoogleTestApp.Build.cs
+D:\git\UE4-GoogleTest\ExampleGame\Source\ThirdParty\GoogleTest\GoogleTest.Build.cs
+D:\git\UE4-GoogleTest\ExampleGame\Source\ExampleGame.Target.cs
+D:\git\UE4-GoogleTest\ExampleGame\Source\ExampleGameEditor.Target.cs
+D:\git\UE4-GoogleTest\ExampleGame\Source\GoogleTestApp.Target.cs

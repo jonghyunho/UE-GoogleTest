@@ -8,8 +8,8 @@ public class GoogleTestAppTarget : TargetRules
     {
         Type = TargetType.Program;
         LinkType = TargetLinkType.Modular;
-        LaunchModuleName = "GoogleTestApp";     
+        LaunchModuleName = "GoogleTestApp";
  
-        bIsBuildingConsoleApplication = true;       
+        bIsBuildingConsoleApplication = true;
     }
 }

@@ -6,9 +6,10 @@ public class GoogleTestAppTarget : TargetRules
 {
     public GoogleTestAppTarget(TargetInfo Target) : base(Target)
     {
-        Type = TargetType.Program;
-        LinkType = TargetLinkType.Modular;
-        LaunchModuleName = "GoogleTestApp";
+		Type = TargetType.Editor;
+        //Type = TargetType.Program;
+        //LinkType = TargetLinkType.Modular;
+        //LaunchModuleName = "GoogleTestApp";
  
         bIsBuildingConsoleApplication = true;
     }

@@ -2,7 +2,7 @@
 
 #include "CoreMinimal.h"
 
-class EXAMPLEGAMECORE_API IUnrealActor {
+class IUnrealActor {
  public:
     virtual ~IUnrealActor() = default; 
     virtual void SetActorLocation(FVector location) = 0;

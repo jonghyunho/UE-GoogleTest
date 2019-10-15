@@ -8,7 +8,7 @@ namespace UnrealBuildTool.Rules {
         public GoogleTest(ReadOnlyTargetRules Target) : base(Target)        
         {
             Type = ModuleType.External;
-             
+
             string googleTestBasePath = Path.Combine(ModuleDirectory, "googletest-release-1.8.1");
  
             PublicSystemIncludePaths.Add(Path.Combine(googleTestBasePath, "googlemock"));

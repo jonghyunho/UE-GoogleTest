@@ -1,5 +1,9 @@
 #pragma once
 
+#ifndef EXAMPLEGAMECORE_API
+#define EXAMPLEGAMECORE_API __declspec(dllexport)
+#endif
+
 #include "ExampleGameCore/Public/IUnrealActor.h"
 #include "ExampleGameCore/Public/IUnrealMath.h"
 
@@ -10,6 +14,15 @@ class EXAMPLEGAMECORE_API CFloatingActor {
   float mRunningTime;
 
  public:
-  CFloatingActor(IUnrealActor& actor, IUnrealMath& math);
-  void Tick(float DeltaTime);
+  CFloatingActor(IUnrealActor& actor, IUnrealMath& math)
+      : mActor(actor), mMath(math), mRunningTime(0) {}
+
+  void Tick(float DeltaTime) {
+    FVector NewLocation = mActor.GetActorLocation();
+    float DeltaHeight =
+        (mMath.Sin(mRunningTime + DeltaTime) - mMath.Sin(mRunningTime));
+    NewLocation.Z += DeltaHeight * 20.0f;
+    mRunningTime += DeltaTime;
+    mActor.SetActorLocation(NewLocation);
+  }
 };

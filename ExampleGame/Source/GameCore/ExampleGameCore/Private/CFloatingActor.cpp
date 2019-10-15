@@ -1,5 +1,6 @@
-#include "ExampleGameCore/Public/CFloatingActor.h"
+#include "CFloatingActor.h"
 
+/*
 CFloatingActor::CFloatingActor(IUnrealActor& actor, IUnrealMath& math)
     : mActor(actor), mMath(math), mRunningTime(0) {}
 
@@ -11,3 +12,4 @@ void CFloatingActor::Tick(float DeltaTime) {
   mRunningTime += DeltaTime;
   mActor.SetActorLocation(NewLocation);
 }
+*/

@@ -10,6 +10,7 @@ namespace UnrealBuildTool.Rules {
                     "ExampleGameCore"
                 }
             );
+
             PrivatePCHHeaderFile = "Private/GoogleTestApp.h";
         }
     }
